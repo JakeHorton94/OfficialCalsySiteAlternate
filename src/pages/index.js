@@ -1,6 +1,6 @@
 import React from "react"
 import { Row, Col, Container, ListGroup } from "react-bootstrap"
-
+import './index.scss'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -11,55 +11,8 @@ const IndexPage = () => (
       <Row>
         <Col>
           <p>
-            This is a Gatsby Starter that I frequently use to get jump started
-            on quick website builds. It includes the following packages:
-          </p>
-        </Col>
-      </Row>
-      <Row className="justify-content-center my-3">
-        <Col md="6">
-          <ListGroup>
-            <ListGroup.Item
-              action
-              href="https://getbootstrap.com"
-              target="_blank"
-            >
-              Bootstrap
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-bootstrap.github.io/"
-              target="_blank"
-            >
-              react-bootstrap
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-icons.netlify.com"
-              target="_blank"
-            >
-              react-icons
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/"
-              target="_blank"
-            >
-              gatsby-plugin-sass
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <p>
-            This starter also includes a navbar that sticks to the top of the
-            screen when the user scrolls past it, and a footer that stays at the
-            bottom of the screen.
-          </p>
-          <p>
-            For more documentation on these packages and how they work, please
-            refer to the pages linked in the list above.
+          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe className="instagramFeed instaFeedSmall" src="//lightwidget.com/widgets/1d7d589b73cc5f20aa46fd8a695aba39.html" scrolling="no" allowtransparency="true"  ></iframe>
+          <iframe className="instagramFeed instaFeedLarge" src="//lightwidget.com/widgets/eadb622f90655f7d9483180b4d26c07d.html" scrolling="no" allowtransparency="true"></iframe>
           </p>
         </Col>
       </Row>

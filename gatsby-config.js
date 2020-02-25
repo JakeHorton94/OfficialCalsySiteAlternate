@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `Gatsby React Bootstrap Starter`,
+    title: `Calsy SSD`,
     description: `A starter that includes react-bootstrap and react-icons, along with SASS compilation.`,
     author: `Billy Jacoby`,
   },
@@ -12,6 +12,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-load-script`,
+      options: {
+        src: "https://kit.fontawesome.com/e4e9ebb23e.js",
       },
     },
     `gatsby-plugin-sass`,

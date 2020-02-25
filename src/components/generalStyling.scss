@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+$blue-color: #2d81bd;
+$yellow-color: #fedd43;
+// $red-color: #ad234c;
+$red-color: #cc2e8a;
+$black-color: #0d0d0f;
+$white-color: #f6f6f6;
+$grey-color: #bbc3c6;
+// $grey-color: #6793c0;
+
+
+$phone-breakpoint: 576px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 992px;
+$large-desktop-breakpoint: 1200px; 
+
+$common-margin: 0 6%;
+$common-padding: 2% 6%;
+
+.heading {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    font-size: 40px;
+    color: white;
+    @media (min-width: $tablet-breakpoint) {
+        font-size: 70px;
+        font-weight: normal;
+    }
+}
+
+
+.heading2 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    color: white;
+    @media (min-width: $tablet-breakpoint) {
+        font-size: 70px;
+        font-weight: normal;
+        top: 45%;
+    }
+}
+
+.intro {
+    position: absolute;
+    top: 42%;
+    
+    color: $white-color;
+    line-height: 2;
+    font-size: 20px;
+    @media (min-width: $tablet-breakpoint) {
+        top: 60%;
+    }
+}
+.margin {
+    margin: $common-margin;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+.section2 {
+    background-color: $grey-color;
+    color: $black-color;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 2px;
+  box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
+
+
+}
+
+.section1 {
+  box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
+  background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: $black-color;
+    margin-top: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+}
+
+.postHeading {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    @media (min-width: $tablet-breakpoint) {
+        font-size: 20px;
+    }
+}
+
+.postDate {
+    width: auto;
+        text-align: center;
+    display: none;
+    @media (min-width: $tablet-breakpoint) {
+        display: inline;
+    }
+}

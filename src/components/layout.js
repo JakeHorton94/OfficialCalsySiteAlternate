@@ -1,9 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
@@ -12,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./header"
 import Navbar from "./navBar"
+import './layout.scss'
 
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
@@ -27,6 +22,8 @@ const Layout = ({ children, pageInfo }) => (
     render={data => (
       <>
         <Container fluid className="px-0 main">
+        <script src="https://kit.fontawesome.com/e4e9ebb23e.js" crossorigin="anonymous"></script>
+
           <Row noGutters className="justify-content-center">
             <Col>
               <Header siteTitle={data.site.siteMetadata.title} />
@@ -41,19 +38,24 @@ const Layout = ({ children, pageInfo }) => (
             </Col>
           </Row>
         </Container>
-        <Container fluid className="px-0">
-          <Row noGutters>
-            <Col className="footer-col">
-              <footer>
+      
+              <footer className="footer">
                 <span>
-                  © {new Date().getFullYear()}, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+                <i class="fas fa-phone-square"></i>
+                 01279 93 94 95
+                </span>
+                <span>
+                <i class="fas fa-envelope"></i>
+                 info@calsy-ssd.co.uk
+                </span>
+                <span>
+                
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                 @calsy_ssd
                 </span>
               </footer>
-            </Col>
-          </Row>
-        </Container>
+           
       </>
     )}
   />

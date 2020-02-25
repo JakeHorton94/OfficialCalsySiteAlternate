@@ -1,0 +1,14 @@
+@import './generalStyling.scss';
+
+img {
+    width: 100%;
+    @media (min-width: 992px) {
+        width: 500px;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #bbc3c6;
+}

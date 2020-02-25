@@ -1,0 +1,19 @@
+.instagramFeed {
+    width: 100%;
+    overflow: hidden;
+    height: 1000px;
+    border: none;
+}
+
+.instaFeedLarge {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .instaFeedLarge {
+        display: flex;
+    }
+    .instaFeedSmall {
+        display: none;
+    }
+}
