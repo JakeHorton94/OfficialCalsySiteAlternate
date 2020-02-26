@@ -22,3 +22,74 @@
    
 }
 
+.navbar {
+    box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
+  
+    a {
+      
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: auto;
+      color: #f6f6f6;
+      background-color: #5e6872;
+      text-decoration: none;
+      width: 100%;
+      padding: 10px 40px;
+      @media (min-width: 992px) {
+        width: 22.8%;
+      }
+     
+      
+    
+      &:hover{
+        color: white;
+        transition-duration: 0.5s;
+        
+      }
+  
+    }
+    
+    .about {
+      background-color: #bbc3c6;
+      color: #212529;
+  
+    }
+  
+    .about:hover {
+      background-color: #2d81bd;
+      transition-duration: 0.5s;
+    }
+  
+    .services {
+      background-color: #bbc3c6;
+      color: #212529;
+  
+    }
+    .services {
+      background-color: #bbc3c6;
+      &:hover {
+      background-color: #cc2e8a;
+      transition-duration: 0.5s;
+    }
+  }
+    .contact {
+      background-color: #bbc3c6;
+      color: #212529;
+  
+  
+    }
+    .contact:hover {
+      background-color: #fedd43;
+      transition-duration: 0.5s;
+    }
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
