@@ -1,16 +1,53 @@
 import React from "react"
-import './vehicleGraphics.scss'
+import './bespokeStickers.scss'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from 'gatsby'
+import blogStyles from './blog.module.scss'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 
 
-const VehicleGraphicsPage = () => (
-  <Layout pageInfo={{ pageName: "services" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
-    
-          
-  </Layout>
-)
+const VehicleGraphicsPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+        allMarkdownRemark(filter: {frontmatter: {vehicleGraphics: {eq: true}}, fields: {slug: {}}}) {
+          edges {
+            node {
+              fields {
+                slug 
+              }
+              frontmatter {
+                title
+                date
+                thumbnail
+              }
+            }
+          }
+        }
+      }`)
+
+        return (
+            <Layout>
+                <h1> Vehicle Graphics </h1>
+                <ol className={blogStyles.posts}>
+                    {data.allMarkdownRemark.edges.map((edge) => {
+                        return (
+                            <li className={blogStyles.post}>
+                            <Link to= {"blog/" + edge.node.fields.slug}>
+                                <h2 className="postHeading">{edge.node.frontmatter.title}</h2>
+                                <p className="postDate">{edge.node.frontmatter.date}</p>
+                                <img src={edge.node.frontmatter.thumbnail}/>
+                            </Link>
+                            </li>
+                        )
+                    })}
+                </ol>
+            </Layout>
+        )
+  }
+
 
 export default VehicleGraphicsPage
+
+
+
+
