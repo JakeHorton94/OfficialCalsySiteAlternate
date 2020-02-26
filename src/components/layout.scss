@@ -34,3 +34,9 @@
     color: #fedd43;
     margin-right: 5px;
 }
+
+.mt-5 {
+    @media (min-width: 992px) {
+    width: 70%;
+    }
+}

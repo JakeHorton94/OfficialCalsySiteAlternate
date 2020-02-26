@@ -4,6 +4,8 @@ import './contact.scss'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+
+console.log("@@@@@@@@@@@@@@@@@@@@@@@" + process.env.GATSBY_API_KEY)
 const ContactPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />

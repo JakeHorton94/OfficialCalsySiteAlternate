@@ -92,6 +92,12 @@ body {
     width: 100%;
     color: $black-color;
     margin-top: 30px;
+    padding: 0 30px;
+    @media (min-width: 992px) {
+    // width: 800px;
+    // padding: 30px;
+    }
+    
 }
 
 .grid {

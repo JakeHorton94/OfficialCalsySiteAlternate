@@ -17,13 +17,13 @@ const AboutPage = () => (
             </div>
 
             <div className="section1">
-                <h2>Premises.</h2>
+                <h2>Premises</h2>
                 <p>Unlike some of our other competitors our 2000sqft, fully equipped, heated  workshop is big enough to accommodate virtually any vehicle. This allows us to ensure your graphics are applied in a clean, dust free environment heated to the temperature specified by the material manufacturer. By using only the highest quality materials, produced and fitted in the correct working environment we can be certain your product leaves us perfect. 
                 </p>
             </div>
 
             <div className="section1">
-                <h2>Motorsport. </h2>
+                <h2>Motorsport </h2>
                 <p> We are passionate motorsport. It’s not just our hobby but a big part of our business. We sponsor multiple competitors in track, drift and karting events and do everything we can to support grass roots motorsport. If you have a competition or track car that you need graphics or branding for don’t hesitate to give us a call for a free no obligation quotation or better yet pop down and see our personal competition cars for yourselves.</p>
                 <p>Check our social media to keep up to date with our latest track day, competition and sponsored competitors updates.                 </p>
             </div>
