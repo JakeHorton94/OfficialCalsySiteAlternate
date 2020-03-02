@@ -14,17 +14,21 @@ const CustomNavbar = ({ pageInfo }) => {
           
             <Link class="about" to="/about">
             
-                Who we are
+                WHO WE ARE
             </Link>
-            
+            <div className="bullet">
+            •
+            </div>
             <Link class="services" to="/services">
               
-                What we do
+               WHAT WE DO
                 
             </Link>
-          
+            <div className="bullet">
+            •
+            </div>
             <Link class="contact" to="/contact">
-                Where we are
+               WHERE WE ARE
                 
             </Link>
             

@@ -3,14 +3,27 @@ iframe {
     width: 100%;
     border: none;
     margin-top: 30px;
+    margin-bottom: 20px;
   box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
     
 }
-
+.secondaryHeading {
+    display: none;
+    @media (min-width: 992px) {
+        display: flex;
+    }
+}
 body {
     text-align: center;
 }
 
+.firstLine {
+    padding-top: 10px;
+}
+
+.lastLine {
+    margin: 0;
+}
 h1 {
     margin-top: 10px;
 }

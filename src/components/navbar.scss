@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     @media (min-width: 992px) {
+      // margin-right: 70px;
         display: flex;
     justify-content: center;
     flex-direction: row;
@@ -23,65 +24,68 @@
 }
 
 .navbar {
-    box-shadow: 0px 1px 5px 0px rgba(186,186,186,1);
-  
+  box-shadow: 0px 3px 4px 0px rgba(186,186,186,1);
+  .bullet {
+      font-size: 30px;
+      color: $white-color;
+      display: none;
+      @media (min-width: 992px) {
+        display: flex;
+      }
+    }
     a {
-      
       height: 50px;
       display: flex;
       justify-content: space-around;
       align-items: center;
-      
-      color: #f6f6f6;
-      background-color: $dark-grey-color;
+      color: $black-color;
       text-decoration: none;
       width: 100%;
       padding: 10px 40px;
       @media (min-width: 992px) {
-        width: 22.8%;
+        width: auto;
+        font-size: 30px;
+        padding: 10px 30px;
+        margin-bottom: 5px;
       }
      
       
     
-      &:hover{
-        color: white;
-        transition-duration: 0.5s;
-        
-      }
+     
   
     }
     
     .about {
-      background-color: $grey-color;
-      color: #212529;
+     
+      color: $white-color;
   
     }
   
     .about:hover {
-      background-color: #2d81bd;
+     color: #2d81bd;
       transition-duration: 0.5s;
     }
   
     .services {
-      background-color: $grey-color;
-      color: #212529;
+     
+      color: $white-color;
   
     }
     .services {
-      background-color: $grey-color;
+      
       &:hover {
-      background-color: #cc2e8a;
+      color: #cc2e8a;
       transition-duration: 0.5s;
     }
   }
     .contact {
-      background-color: $grey-color;
-      color: #212529;
+      color: $grey-color;
+      color: $white-color;
   
   
     }
     .contact:hover {
-      background-color: #fedd43;
+      color: #fedd43;
       transition-duration: 0.5s;
     }
 }

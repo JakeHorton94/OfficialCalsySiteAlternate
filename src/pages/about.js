@@ -9,9 +9,27 @@ const AboutPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
             
+    <div className="section1 phoneHeading">
+    <h2> Who are we? </h2>
+    </div>
 
-            <div className="section1">
-                <h2> Who are we? </h2>
+
+    <div className="section1">
+  <div className="section3">
+    <img className="connorCircle" src="https://i.imgur.com/A6mi0ho.png"></img>
+     <div className="diagram">
+       +
+     </div>
+    <img className="connorCircle" src="https://i.imgur.com/A6mi0ho.png"></img>
+    <div className="diagram">
+       =
+     </div>
+    <img className="connorCircle" src="https://i.imgur.com/3BUmDa8.png"></img>
+
+    </div>
+
+            
+                
                 <p > Calsy stickers signs designs ltd is a company started by 2 friends with years of industry experience and a passion for perfection. After working for other companies in the industry for years we noticed a industry trend of poor customer communication and customer satisfaction. Realising we can do better calsy stickers signs designs ltd was born. We have been trading as our own company for 2 years going from strength to strength. Starting out in a small office with shared workspace we have recently moved into our brand new, fully equipped 2000sqft premises. We are fully insured, use only the best materials, provide free no obligation quotes, pride ourselves on quick easy communication, the highest standards of work and unrivalled aftercare. </p>
                 <p > <strong> Our work and reviews speak for themselves. </strong> </p>
             </div>

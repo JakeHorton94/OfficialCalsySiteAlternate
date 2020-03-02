@@ -1,3 +1,14 @@
-h2 {
-    margin-top: 10px;
+@import '../components/generalStyling.scss';
+
+
+img {
+    width: 100%;
+    @media (min-width: 992px) {
+    width: 25%;
+    }
+}
+
+.diagram {
+    font-size: 40px;
+    color: $white-color;
 }

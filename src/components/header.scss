@@ -1,21 +1,23 @@
 @import './generalStyling.scss';
 
-img {
+
+.headerImg {
     width: 100%;
     @media (min-width: 992px) {
         width: 40%;
         position: absolute;
         left: 2%;
-        top: -15%;
+        top: -10%;
     }
 }
 
 .logo {
+    height: 250px;
     display: flex;
     justify-content: center;
     background-color: $grey-color;
     @media (min-width: 992px) {
-        height: 250px;
+        height: 225px;
     }
     
 }

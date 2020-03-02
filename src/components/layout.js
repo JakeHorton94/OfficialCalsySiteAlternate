@@ -24,19 +24,11 @@ const Layout = ({ children, pageInfo }) => (
         <Container fluid className="px-0 main">
         <script src="https://kit.fontawesome.com/e4e9ebb23e.js" crossorigin="anonymous"></script>
 
-          <Row noGutters className="justify-content-center">
-            <Col>
               <Header siteTitle={data.site.siteMetadata.title} />
-            </Col>
-          </Row>
+           
           <Navbar pageInfo={pageInfo} />
-          <Row noGutters>
-            <Col>
-              <Container className="mt-5">
+
                 <main>{children}</main>
-              </Container>
-            </Col>
-          </Row>
         </Container>
       
               <footer className="footer">
