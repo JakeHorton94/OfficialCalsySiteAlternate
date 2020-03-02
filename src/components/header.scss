@@ -3,12 +3,19 @@
 img {
     width: 100%;
     @media (min-width: 992px) {
-        width: 28%;
+        width: 40%;
+        position: absolute;
+        left: 2%;
+        top: -15%;
     }
 }
 
 .logo {
     display: flex;
     justify-content: center;
-    background-color: #bbc3c6;
+    background-color: $grey-color;
+    @media (min-width: 992px) {
+        height: 250px;
+    }
+    
 }
