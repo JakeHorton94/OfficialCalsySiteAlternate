@@ -1,0 +1,93 @@
+@import '../components/generalStyling.scss';
+
+.blueDot {
+    color: $blue-color;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.yellowDot {
+    color: $yellow-color;
+    font-size: 50px;
+    padding: 5px;
+
+}
+
+.redDot {
+    color: $red-color;
+    font-size: 50px;
+    padding: 5px;
+
+}
+
+.serviceIntro {
+    @media (min-width: 992px) {
+    font-size: 20px;
+    }
+}
+
+.threeSteps {
+    @media (min-width: 992px) {
+    font-size: 50px;
+    margin-bottom: 20px;
+    }
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 10%;
+    text-align: left;
+    @media (min-width: 992px) {
+        font-size: 25px;
+        width: 80%;
+        
+    }
+
+    p {
+        width: 80%;
+    }
+}
+
+.listNumber1 {
+    text-align: center;
+    font-size: 50px;
+    color: $blue-color;
+    width: 20%;
+
+    @media (min-width: 992px) {
+        font-size: 80px;
+    }
+}
+
+.listNumber2 {
+    
+
+    text-align: center;
+
+    font-size: 50px;
+    color: $red-color;
+    width: 20%;
+    @media (min-width: 992px) {
+        font-size: 80px;
+    }
+
+}
+
+.listNumber3 {
+
+    text-align: center;
+    font-size: 50px;
+    color: $yellow-color;
+    width: 20%;
+    @media (min-width: 992px) {
+        font-size: 80px;
+    }
+
+}
+
+.serviceLogo {
+    margin-top: 30px;
+}

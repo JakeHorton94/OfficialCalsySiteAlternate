@@ -5,6 +5,7 @@
     }
 }
 
+
 .servicesGrid {
     display: flex;
     flex-direction: row;
@@ -16,7 +17,7 @@
     width: 90%;
     color: $black-color;
     margin-top: 30px;
-    padding: 0 30px;
+    padding: 30px 30px;
     @media (min-width: 992px) {
     width: 90%;
     }
