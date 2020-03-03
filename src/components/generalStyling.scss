@@ -7,9 +7,8 @@ $yellow-color: #fedd43;
 $red-color: #cc2e8a;
 $black-color: #0d0d0f;
 $white-color: #f6f6f6;
-$grey-color: #e7e7e7;
+$grey-color: #f2efef;
 $dark-grey-color: #a9abae;
-// $grey-color: #6793c0;
 
 
 $phone-breakpoint: 576px;
@@ -131,8 +130,11 @@ main {
 }
 
 .postHeading {
-    font-size: 12px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px 0;
     text-align: center;
     @media (min-width: $tablet-breakpoint) {
         font-size: 20px;

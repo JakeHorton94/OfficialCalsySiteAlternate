@@ -1,23 +1,30 @@
+@import '../components/generalStyling.scss';
+
 .posts {
     list-style-type: none;
     margin: 0;
     display: flex;
-    justify-content: space-evenly;
-
-    
+    flex-direction: column;
+    padding-left: 0;
+    @media (min-width: $tablet-breakpoint) {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
 .post {
     margin: 1rem 0;
-    width: 30%;
-    
+    width: 100%;
+    @media (min-width: $tablet-breakpoint) {
+        width: 30%;
+    }
 
     img {
         width: 100%;
     }
 
     a {
-        background: #f4f4f4;
+        background: $white-color;
         color: black;
         display: block;
         
@@ -28,9 +35,7 @@
         background: #e4e4e4;
     }
 
-    h2 {
-        margin-bottom: 0;
-    }
+
 
     p { 
         
@@ -38,4 +43,9 @@
         font-size: 0.8rem;
         font-style: italic;
     }
+
+    h2 {
+        margin-bottom: 0;
+    }
 }
+

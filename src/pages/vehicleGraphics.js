@@ -51,7 +51,7 @@ const VehicleGraphicsPage = () => {
                             <li className={blogStyles.post}>
                             <Link to= {"blog/" + edge.node.fields.slug}>
                                 <h2 className="postHeading">{edge.node.frontmatter.title}</h2>
-                                <p className="postDate">{edge.node.frontmatter.date}</p>
+                                {/* <p className="postDate">{edge.node.frontmatter.date}</p> */}
                                 <img src={edge.node.frontmatter.thumbnail}/>
                             </Link>
                             </li>

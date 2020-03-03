@@ -4,6 +4,7 @@ import React from "react"
 import "./header.scss"
 
 const Header = ({ siteTitle }) => (
+  <div className="headerContainer">
   <header className="logo"
   >
     
@@ -18,6 +19,7 @@ const Header = ({ siteTitle }) => (
         </Link>
 
   </header>
+  </div>
 )
 
 Header.propTypes = {

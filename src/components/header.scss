@@ -1,7 +1,15 @@
 @import './generalStyling.scss';
 
+.headerContainer {
+    // width: 90%;
+    // display: flex;
+    // justify-content: center;
+    // margin-left: 5%;
+   
+}
 
 .headerImg {
+    // margin-left: 5%;
     width: 100%;
     @media (min-width: 992px) {
         width: 40%;
@@ -12,9 +20,10 @@
 }
 
 .logo {
+    
     height: 250px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+   
     background-color: $grey-color;
     @media (min-width: 992px) {
         height: 225px;
