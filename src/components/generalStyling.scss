@@ -21,10 +21,8 @@ $common-padding: 2% 6%;
 
 .heading {
     margin: 0;
-    position: absolute;
-    top: 30%;
     font-size: 40px;
-    color: white;
+    color: $white-color;
     @media (min-width: $tablet-breakpoint) {
         font-size: 70px;
         font-weight: normal;

@@ -26,7 +26,7 @@ query (
 const Blog = (props) => {
     return (
         <Layout>
-          <div className="margin">
+          <div className="section1">
             <h1 className="heading">{props.data.markdownRemark.frontmatter.title}</h1>
             <p>{props.data.markdownRemark.frontmatter.date}</p>
             <div className="grid" dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html}}></div>
