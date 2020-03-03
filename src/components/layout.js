@@ -33,17 +33,18 @@ const Layout = ({ children, pageInfo }) => (
       
               <footer className="footer">
                 <span>
-                <i class="fas fa-phone-square"></i>
+                <img className="contactLogo" src="https://i.imgur.com/2FkAADf.png" /> 
                  01279 93 94 95
                 </span>
                 <span>
-                <i class="fas fa-envelope"></i>
+                <img className="contactLogo" src="https://i.imgur.com/RYKK6Q3.png" /> 
                  info@calsy-ssd.co.uk
                 </span>
                 <span>
                 
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
+                <img className="contactLogo" src="https://i.imgur.com/YMS7Z4n.png" /> 
+                <img className="contactLogo" src="https://i.imgur.com/Dua7uuq.png" /> 
+
                  @calsy_ssd
                 </span>
               </footer>

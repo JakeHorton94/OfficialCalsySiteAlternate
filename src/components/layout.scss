@@ -17,25 +17,17 @@
     }
 }
 
-.fa-phone-square {
-    color: #cc2e8a;
+.contactLogo {
     margin-right: 5px;
+    height: 30px;
+    width: 30px;
+
+    @media (min-width: 992px) {
+    height: 70px;
+    width: 70px;
+    }
 }
 
-.fa-envelope {
-    color: #2d81bd;
-    margin-right: 5px;
-}
-
-.fa-facebook {
-    color: #fedd43;
-    margin-right: 5px;
-}
-
-.fa-instagram {
-    color: #fedd43;
-    margin-right: 5px;
-}
 
 .mt-5 {
     @media (min-width: 992px) {
