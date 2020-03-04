@@ -26,7 +26,7 @@ query (
 const Blog = (props) => {
     return (
         <Layout>
-          <div className="section1">
+          <div className="secondaryHeading">
             <h2>{props.data.markdownRemark.frontmatter.title}</h2>
             </div>
             
