@@ -24,7 +24,7 @@ const Layout = ({ children, pageInfo }) => (
         <Container fluid className="px-0 main">
         <script src="https://kit.fontawesome.com/e4e9ebb23e.js" crossorigin="anonymous"></script>
 
-              <Header siteTitle={data.site.siteMetadata.title} />
+              {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
            
           <Navbar pageInfo={pageInfo} />
 

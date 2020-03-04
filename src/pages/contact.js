@@ -10,12 +10,15 @@ const ContactPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
 
-    <div className="section1 phoneHeading">
+    <div className=" phoneHeading">
     <h2> Contact Us</h2>
     </div>
-    
+            <div className="secondaryHeading">
+            <h1 className="secondaryHeadingContact"> Contact Us</h1>
+            </div>
+
+
             <div className="section1">
-            <h1 className="secondaryHeading"> Contact Us</h1>
 <p className="firstLine">Unit 3 Advance House, Central Road, Harlow, Essex, CM20 2ST</p>
 <p>info@calsy-ssd.co.uk</p>
 <p className="lastLine">01279 93 94 95</p>
@@ -23,9 +26,11 @@ const ContactPage = () => (
 
 
 </div>
-            
+<div className="secondaryHeading">
+<h1> Opening Hours</h1>
+</div>
             <div className="section1">
-                <h1> Opening Hours</h1>
+                
                 <p>Mon: 9:00am - 6:00pm</p>
                 <p>Tue: 9:00am - 6:00pm</p>
                 <p>Wed: 9:00am - 6:00pm</p>

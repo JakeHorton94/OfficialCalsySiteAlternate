@@ -2,6 +2,11 @@
 
 .headerContainer {
     background-color: $grey-color;
+    display:none;
+
+    @media (min-width: 992px) {
+        display: flex;
+    }
    
 }
 

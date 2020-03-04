@@ -7,9 +7,23 @@ import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
 const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
-    <>
-      <Navbar expand="lg" className="Navbar sticky-top" >
+    <>  
+      <Navbar expand="lg" className="Navbar sticky-top" > 
+     <div className="navWidth">
+      
+  <div className="mobileNav">
+  <Link to="/home">
+    <div className="navLogo">
+    
+    <img className="calsyNav" src="https://i.imgur.com/CrASct2.png" /> 
+        </div>
+    </Link>
+
+        <div className="navToggle">
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="mainNav" />
+        </div>
+        </div>
+        </div>
         <Navbar.Collapse id="basic-navbar-nav" className="mainNav">
         
 
