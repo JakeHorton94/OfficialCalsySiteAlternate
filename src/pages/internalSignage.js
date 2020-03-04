@@ -31,26 +31,25 @@ const InternalSignagePage = () => {
               <div className="section1">
                 <p className="serviceIntro">Interior signs have a wealth of different uses, created in many forms to suit a diverse blend of environments, budgets and purposes. Internal signage is key in showing people who you are, where to go, what you do and more...</p>
                 <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>
-                <h2 className="threeSteps"> INTERIOR SIGNAGE TYPES</h2>
-                <div className="point">
-                  <p>GLOWING</p>
-                </div>
-                <div className="point">
-                  <p>NEON</p>
-                </div>
-                <div className="point">
-                  <p>TRAY</p>
-                </div>
-                <div className="point">
-                  <p>SIMPLE BOARD</p>
-                </div>
-                <div className="point">
-                  <p>CUT OUT LETTERS</p>
+                <h2 className="threeSteps signageSubheading"> INTERIOR SIGNAGE TYPES</h2>
+                <div className="clothingList">
+                  GLOWING<span className="blueDot">•</span>
+               
+                  NEON <span className="redDot">•</span>
+              
+                
+                  TRAY <span className="yellowDot">•</span>
+                
+                  SIMPLE BOARD <span className="blueDot">•</span>
+               
+                  CUT OUT LETTERS
                 </div>
                 </div>
                 
                 <div className="section1">
-                <h2> Take a look at some of our work </h2>
+                <h2 > Take a look at some of our work </h2>
+                </div>
+                <div className="galleryContainer">
                 <ol className={blogStyles.posts}>
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (

@@ -10,10 +10,6 @@ const Header = ({ siteTitle }) => (
     
         <Link
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
         >
           <img className="headerImg" src="https://i.imgur.com/VCbf2mP.png" /> 
         </Link>

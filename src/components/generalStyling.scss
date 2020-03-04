@@ -7,7 +7,9 @@ $yellow-color: #fedd43;
 $red-color: #cc2e8a;
 $black-color: #0d0d0f;
 $white-color: #f6f6f6;
-$grey-color: #f2efef;
+$grey-color: rgb(242, 239, 239);
+$grey-color2: rgba(242, 239, 239, 0.5);
+
 $dark-grey-color: #a9abae;
 
 
@@ -30,7 +32,7 @@ $common-padding: 2% 6%;
 }
 
 body {
-    background-image: url("https://i.imgur.com/cSog8bH.png");
+    background-image: url("https://i.imgur.com/yfXjlQQ.png");
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -90,6 +92,8 @@ body {
       width: 90%;
       flex-direction: row;
       }
+
+      
   }
 
 main {
@@ -103,16 +107,28 @@ main {
   box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
   background-color: $grey-color;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     width: 90%;
     color: $black-color;
     margin-top: 30px;
     padding: 30px 30px;
+    border-radius: 2px;
     @media (min-width: 992px) {
     width: 90%;
     }
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.whoAreWe {
+    margin-top: 0;
 }
 
 .section3 {
@@ -160,4 +176,13 @@ main {
     @media (min-width: 992px) {
         display: none;
     }
+}
+
+.galleryContainer {
+    width: 90%;
+    justify-content: space-between;
+}
+
+.signageSubheading {
+    padding-bottom: 30px;
 }

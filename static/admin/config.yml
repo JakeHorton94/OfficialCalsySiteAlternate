@@ -29,4 +29,8 @@ collections:
       - { label: "Site Safety", name: "siteSafety", widget: "boolean" }
       - { label: "Wayfinding", name: "wayfinding", widget: "boolean" }
       - { label: "Subcontractor", name: "subcontractor", widget: "boolean" }
+      - { label: "Custom Work", name: "customWork", widget: "boolean" }
+      - { label: "Glass Manifestation", name: "glassManifestation", widget: "boolean" }
+      - { label: "Swing and Pavement Signs", name: "swingAndPavementSigns", widget: "boolean" }
+      - { label: "Site Hoarding", name: "siteHoarding", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }

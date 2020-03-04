@@ -27,7 +27,16 @@ const WayfindingPage = () => {
 
         return (
             <Layout>
-                <h1> Wayfinding </h1>
+                <img className="serviceLogo" src="https://i.imgur.com/tRlyUy8.png"></img>
+              <div className="section1">
+                <p className="serviceIntro">Cards and Leaflets provide a physical example of your brand and are great at leaving a lasting impression.</p>
+                <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>
+                </div>
+
+              <div className="section1">
+                <h2> Take a look at some of our work </h2>
+                </div>
+                <div className="galleryContainer">
                 <ol className={blogStyles.posts}>
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
@@ -41,6 +50,7 @@ const WayfindingPage = () => {
                         )
                     })}
                 </ol>
+                </div>
             </Layout>
         )
   }

@@ -15,5 +15,9 @@ cardsAndLeaflets: true
 siteSafety: true
 wayfinding: true
 subcontractor: true
+customWork: false
+glassManifestation: false
+siteHoarding: false
+swingAndPavementSigns: false
 ---
 ![](/img/rachelscakeswordpress3.jpg)

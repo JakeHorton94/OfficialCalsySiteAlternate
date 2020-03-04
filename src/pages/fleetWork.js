@@ -45,6 +45,8 @@ const FleetWorkPage = () => {
                 
                 <div className="section1">
                 <h2> Take a look at some of our work </h2>
+                </div>
+                <div className="galleryContainer">
                 <ol className={blogStyles.posts}>
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (

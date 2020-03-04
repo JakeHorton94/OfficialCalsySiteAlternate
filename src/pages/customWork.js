@@ -1,16 +1,15 @@
 import React from "react"
-import './vehicleGraphics.scss'
-import './clothingBranding.scss'
+import './bespokeStickers.scss'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
 
-const ClothingBrandingPage = () => {
+const CustomWorkPage = () => {
   const data = useStaticQuery(graphql`
     query {
-        allMarkdownRemark(filter: {frontmatter: {clothingBranding: {eq: true}}, fields: {slug: {}}}) {
+        allMarkdownRemark(filter: {frontmatter: {customWork: {eq: true}}, fields: {slug: {}}}) {
           edges {
             node {
               fields {
@@ -28,15 +27,10 @@ const ClothingBrandingPage = () => {
 
         return (
             <Layout>
-                <img className="serviceLogo" src="https://i.imgur.com/SrR5hW3.png"></img>
+                <img className="serviceLogo" src="https://i.imgur.com/wYlLtbw.png"></img>
               <div className="section1">
-                <p className="serviceIntro">We offer bespoke clothing and workwear branding. Garments can be supplied either by us or by you. Designed around your company image, we can ensure you and your staff look professional in your workplace or on site.</p>
-                <p className="serviceIntro"> <Link to="/contact"> Contact us now </Link> for a free no obligation quotation </p>
-                <p ><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>
-                <h2 className="threeSteps"> CLOTHING TYPES </h2>
-                <p className="clothingList"> T-shirts <span className="blueDot">•</span> Polo Tops <span className="redDot">•</span> Hoodies <span className="yellowDot">•</span> Jumpers <span className="blueDot">•</span> High-Vis <span className="redDot">•</span> Joggers <span className="yellowDot">•</span> Football/Sports Tops/Kits <span className="blueDot">•</span> Coats/Jackets <span className="redDot">•</span> School Uniform <span className="yellowDot">•</span> Salon <span className="blueDot">•</span> Hospitality <span className="redDot">•</span> and more 
-                </p>
-
+                <p className="serviceIntro">Cards and Leaflets provide a physical example of your brand and are great at leaving a lasting impression.</p>
+                <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>
                 </div>
 
               <div className="section1">
@@ -62,7 +56,7 @@ const ClothingBrandingPage = () => {
   }
 
 
-export default ClothingBrandingPage
+export default CustomWorkPage
 
 
 

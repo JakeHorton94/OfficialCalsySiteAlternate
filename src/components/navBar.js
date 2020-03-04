@@ -11,7 +11,8 @@ const CustomNavbar = ({ pageInfo }) => {
       <Navbar expand="lg" className="Navbar sticky-top" >
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="mainNav" />
         <Navbar.Collapse id="basic-navbar-nav" className="mainNav">
-          
+        
+
             <Link class="about" to="/about">
             
                 WHO WE ARE
