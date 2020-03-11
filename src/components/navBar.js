@@ -8,6 +8,7 @@ const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
   return (
     <>  
+    <div className="navDiv">
       <Navbar expand="lg" className="Navbar sticky-top" > 
      <div className="navWidth">
       
@@ -15,7 +16,7 @@ const CustomNavbar = ({ pageInfo }) => {
   <Link to="/home">
     <div className="navLogo">
     
-    <img className="calsyNav" src="https://i.imgur.com/CrASct2.png" /> 
+    <img className="calsyNav" src="https://i.imgur.com/BgUBT9Q.png" /> 
         </div>
     </Link>
 
@@ -51,6 +52,7 @@ const CustomNavbar = ({ pageInfo }) => {
          
         </Navbar.Collapse>
       </Navbar>
+      </div>
     </>
   )
 }

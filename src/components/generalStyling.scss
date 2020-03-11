@@ -7,8 +7,8 @@ $yellow-color: #fedd43;
 $red-color: #cc2e8a;
 $black-color: #0d0d0f;
 $white-color: #f6f6f6;
-$grey-color: rgb(242, 239, 239);
-$grey-color2: rgba(242, 239, 239, 0.5);
+$grey-color: rgb(75, 75, 75);
+$grey-color2: rgba(242, 239, 239, 0.9);
 
 $dark-grey-color: #a9abae;
 
@@ -32,10 +32,11 @@ $common-padding: 2% 6%;
 }
 
 body {
-    background-image: url("https://i.imgur.com/yfXjlQQ.png");
+    background-image: url("https://i.imgur.com/ER4ffYl.jpg");
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: 50% 50%;
   
 }
 
@@ -75,12 +76,20 @@ body {
     line-height: 1.5;
 }
 
+main {
+    margin-top: 70px;
+}
+
 .secondaryHeading {
     display: flex;
     align-items: center;
     height: 30px;
     margin-top: 50px;
-    border-bottom: 2px solid $yellow-color;
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+justify-content: center;
+    
 }
 
 .section2 {
@@ -112,7 +121,7 @@ main {
 
 .section1 {
   box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
-  background-color: $grey-color;
+  background-color: $grey-color2;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -148,6 +157,28 @@ main {
     }
     }
 }
+
+.section4 {
+    box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
+    background-color: $grey-color2;
+    
+    padding: 30px 30px;
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 0;
+    }
+      width: 90%;
+      color: $black-color;
+      border-radius: 2px;
+      @media (min-width: 992px) {
+      width: 90%;
+      margin-top: 30px;
+      }
+     
+  }
 
 .grid {
     display: flex;
@@ -190,7 +221,12 @@ main {
 }
 
 
-.phoneHeading {
+.phoneHeading2 {
+    h2 {
+        margin-bottom: 0px;
+    }
+    margin-top: 20px;
+    margin-bottom: 0px;
     @media (min-width: 992px) {
         display: none;
     }
@@ -203,4 +239,30 @@ main {
 
 .signageSubheading {
     padding-bottom: 30px;
+}
+
+.twoGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (min-width: 992px) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    }
+}
+
+.oneGrid {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    @media (min-width: 992px) {
+    width: 40%;
+    }
+}
+
+.impact {
+    margin-top: 5%;
+    width: 90%;
 }

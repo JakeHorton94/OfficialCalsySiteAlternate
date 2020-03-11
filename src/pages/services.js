@@ -10,7 +10,7 @@ const ServicesPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
     
-    <div className="phoneHeading">
+    <div className="phoneHeading2">
     <h2> Services </h2>
     </div>
     

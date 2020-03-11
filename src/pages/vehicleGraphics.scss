@@ -89,6 +89,9 @@
 
 .serviceLogo {
     margin-top: 30px;
+    @media (min-width: 700px) {
+        width: 40%;
+    }
 }
 
 .clothingList {
