@@ -1,22 +1,45 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap"
 import './home.scss'
+import { Link } from "gatsby"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "index" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
-    <div className="slideBackground"> hi</div>
+    <div className="slideBackground"></div>
     <div id="landing-header">
     <img className="bannerCalsy" src="https://i.imgur.com/dlMh926.png" /> 
-    {/* <img className="bannerCalsy2" src="https://i.imgur.com/3xylq8A.png" />  */}
 
     <span>
       <h2 className="latestWork">STICKERS. SIGNS. DESIGNS.</h2>
-      {/* <h2 className="latestWork2">STICKERS. SIGNS. DESIGNS.</h2> */}
 
     </span>
+    </div>
+
+    <div className="buttonContainer">
+      <button className="optionButton aboutButton">
+      <Link className="linkStyles" to="/about">
+
+          ABOUT
+      </Link>
+
+      </button>
+      <button className="optionButton servicesButton">
+      <Link className="linkStyles" to="/services">
+
+          SERVICES
+      </Link>
+
+      </button>
+      
+      <button className="optionButton contactButton">
+      <Link className="linkStyles" to="/contact">
+          CONTACT
+      </Link>
+
+      </button>
     </div>
     
     <ul class="slideshow">
